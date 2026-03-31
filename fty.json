@@ -1,10 +1,8 @@
 module.exports = {
   "wallpaper": "https://壁纸.xxooo.cc/",
-  "logo": "https://bdcache1-f1.v3mh.com/image/25-12-16/6941612717007.gif",
-
   "sites": [
     {
-      "key": "home",
+      "key": "推荐",
       "name": "推荐线路",
       "type": 3,
       "api": "csp_DouDouGuard",
@@ -14,13 +12,13 @@ module.exports = {
       "changeable": 0
     },
     {
-      "key": "mdrive",
+      "key": "MDrive",
       "name": "网盘搜索",
       "type": 3,
       "api": "csp_MyDriveGuard",
-      "searchable": 1,
       "changeable": 0,
       "indexs": 0,
+      "searchable": 1,
       "style": {
         "type": "oval"
       },
@@ -29,7 +27,7 @@ module.exports = {
       }
     },
     {
-      "key": "wopan",
+      "key": "网盘",
       "name": "网盘搜索TV",
       "type": 3,
       "api": "csp_WoGGGuard",
@@ -42,7 +40,7 @@ module.exports = {
       }
     },
     {
-      "key": "ygp",
+      "key": "YGP",
       "name": "阳光片库",
       "type": 3,
       "api": "csp_YGPGuard",
@@ -51,7 +49,7 @@ module.exports = {
       "changeable": 0
     },
     {
-      "key": "music",
+      "key": "MTV1",
       "name": "音乐MV",
       "type": 3,
       "api": "csp_MusicGuard",
@@ -65,7 +63,7 @@ module.exports = {
       "changeable": 0
     },
     {
-      "key": "live",
+      "key": "alllive",
       "name": "电视直播",
       "type": 3,
       "api": "csp_AllliveGuard",
@@ -89,8 +87,8 @@ module.exports = {
       }
     },
     {
-      "key": "zpan",
-      "name": "ZPan网盘搜索",
+      "key": "ZPan",
+      "name": "网盘搜索",
       "type": 3,
       "api": "csp_S_zpsGuard",
       "searchable": 1,
@@ -105,7 +103,7 @@ module.exports = {
       }
     },
     {
-      "key": "4k",
+      "key": "4K",
       "name": "4K影院",
       "type": 3,
       "api": "csp_T4Guard",
@@ -149,7 +147,7 @@ module.exports = {
       "changeable": 1
     },
     {
-      "key": "juying",
+      "key": "剧影视",
       "name": "剧影视",
       "type": 3,
       "api": "csp_JpysGuard",
@@ -160,18 +158,18 @@ module.exports = {
       "changeable": 1
     },
     {
-      "key": "ystv",
-      "name": "影视TV",
+      "key": "影视",
+      "name": "影视库",
       "type": 3,
-      "api": "csp_SixZVGuard",
-      "timeout": 10,
+      "api": "csp_YCyzGuard",
+      "timeout": 15,
+      "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0,
-      "ext": "https://www.xb6v.com/"
+      "changeable": 1
     },
     {
-      "key": "baitu",
+      "key": "白兔",
       "name": "白兔影视",
       "type": 3,
       "api": "csp_BttooGuard",
@@ -192,7 +190,7 @@ module.exports = {
       "ext": "uqGL1fJNENeT7/hHxpSE5qU="
     },
     {
-      "key": "naimi",
+      "key": "nmys",
       "name": "奈米影视",
       "type": 3,
       "api": "csp_NmyswdGuard",
@@ -202,7 +200,84 @@ module.exports = {
       "changeable": 1
     },
     {
-      "key": "aote",
+      "key": "apptx",
+      "name": "APP腾讯",
+      "type": 3,
+      "api": "csp_AppSxGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "rfOb1uAWbkRHw2hdxprG9un3+S3UM8333q8hL4ryEFdZPzse8yYw0KGyJPlU2M9/qTPcL8NFxT0k5GW9Quz0BAIXurGBVyPqDLjdirpPqEz+n0Qh8UPVWo8uxXhO1Bs1TMYA1uIM="
+    },
+    {
+      "key": "appys",
+      "name": "APP影视",
+      "type": 3,
+      "api": "csp_AppSxGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "rfOX1voDIQhH8epBwpmIsuS1PBcr3t3q0G9lLcv9Iz1ISj1GK9lvU7api64Gl9tN42uGKCslqYcYtX9DRNouVJeCY+apCDETugMQA="
+    },
+    {
+      "key": "apphg",
+      "name": "APP韩剧",
+      "type": 3,
+      "api": "csp_AppSxGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "rfOX1voDIQhH8epBwpmIsuS/sSCZxc/l0mxtkeJroUVZOelMAvX1rkVwtfSLM32YxEZVdaM5cM3v2Cdv"
+    },
+    {
+      "key": "appdy",
+      "name": "APP电影",
+      "type": 3,
+      "api": "csp_AppSxGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "rfOb1uAWbkRHw2hdxprG9un3+TbEn4q2l2kipbom2DB9cJI0B72Vu7ahib64Gl9Ew6WTFcIVZWslvDxqEYBqWlYM73GBYCPqCPmCyOr3RGfwmlszjchqARyUh6TFU1VY9QUoo6z8m4XBAmTS/ahgH7SpZP100qUm6hMTmTj8YQU5lM6mxEF7hhEK1eNR="
+    },
+    {
+      "key": "appds",
+      "name": "APP电视剧",
+      "type": 3,
+      "api": "csp_AppSxGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "rfPW1voDIQhH8epBwpmIsuS1qG5xZH86VD1keA6jL1xHjE9fPWUnrqJhm/sNiDK9qDXcsrTmjJz925iWVZ9QpyF"
+    },
+    {
+      "key": "appdyj",
+      "name": "APP纪录片",
+      "type": 3,
+      "api": "csp_AppSxGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "rfOb1uAWbkRHw2hdxprG9un3+TrT2dv+f18lL4ryEFdZPzse8yYw0KGyJPlU2M9/qTPcL8NFxT0dxzsmBPA4uOe87dCDdyvT6nSxujqBjOlnAOodBRAqN97U+qRl1VBOcE6U="
+    },
+    {
+      "key": "appcc",
+      "name": "APP综艺",
+      "type": 3,
+      "api": "csp_AppSxGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "rfOX1voDIQhH8epBwdEGsuIH1+2mam468kW1kLMxyWUMcIXdZft2UtrnwHKs1UwWGu3XElK0a3DSx6zNnVrRqDs+OudUWGWRc"
+    },
+    {
+      "key": "autet",
       "name": "奥特影视",
       "type": 3,
       "api": "csp_AutetGuard",
@@ -212,7 +287,7 @@ module.exports = {
       "changeable": 1
     },
     {
-      "key": "duanju",
+      "key": "jpj",
       "name": "精品短剧",
       "type": 3,
       "api": "csp_JPJGuard",
@@ -223,100 +298,29 @@ module.exports = {
       "changeable": 0
     },
     {
+      "key": "影视TV",
+      "name": "影视TV",
+      "type": 3,
+      "api": "csp_SixZVGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "https://www.xb6v.com/"
+    },
+    {
       "key": "kkk",
       "name": "看看影视",
       "type": 3,
-      "api": "csp_KkNsGuard",
+      "api": "csp_AppSxGuard",
+      "timeout": 10,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt"
-      }
+      "changeable": 1,
+      "ext": "rfOX1voDIQhH8epBwpmIsuS/sSCZxc/l0mxtkeJroUVZOelMAvX1rkVwtfSLM32YxEZVdaM5cM3v2Cdv"
     },
     {
-      "key": "ucys",
-      "name": "UC影视",
-      "type": 3,
-      "api": "csp_UuNsGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt"
-      }
-    },
-    {
-      "key": "yingsousuo",
-      "name": "影视搜",
-      "type": 3,
-      "api": "csp_YiSoGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "yiSoCookie": "satoken=4437cb8c-a260-411b-9a0d-1fa622ab422f"
-      }
-    },
-    {
-      "key": "miao",
-      "name": "秒搜",
-      "type": 3,
-      "api": "csp_MIPanSoGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt"
-      }
-    },
-    {
-      "key": "yunpan",
-      "name": "云盘搜",
-      "type": 3,
-      "api": "csp_YpanSoGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt"
-      }
-    },
-    {
-      "key": "bili",
-      "name": "哔哩哔哩",
-      "type": 3,
-      "api": "csp_BiliGuard",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": {
-        "json": "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt"
-      }
-    },
-    {
-      "key": "biliye",
-      "name": "哔哩影视",
-      "type": 3,
-      "api": "csp_BiliGuard",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": {
-        "json": "https://nos.netease.com/ysf/6496356286589c68f52c2f99c0c674c7.txt"
-      }
-    },
-    {
-      "key": "dm84",
+      "key": "Dm84",
       "name": "动漫84",
       "type": 3,
       "api": "csp_Dm84Guard",
@@ -326,7 +330,7 @@ module.exports = {
       "changeable": 1
     },
     {
-      "key": "anime1",
+      "key": "Anime1",
       "name": "动漫1",
       "type": 3,
       "api": "csp_Anime1Guard",
@@ -336,7 +340,19 @@ module.exports = {
       "changeable": 1
     },
     {
-      "key": "maobohe",
+      "key": "88",
+      "name": "88影视",
+      "type": 3,
+      "api": "csp_Sic88Guard",
+      "timeout": 10,
+      "searchable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "mbj",
       "name": "猫薄荷",
       "type": 3,
       "api": "csp_WmbjGuard",
@@ -349,7 +365,7 @@ module.exports = {
       "ext": "uqGL1fpJNNAUm8fdTwZCE5qSp+Q="
     },
     {
-      "key": "kuaikan",
+      "key": "kqpd",
       "name": "快看片单",
       "type": 3,
       "api": "csp_KanqiuGuard",
@@ -361,7 +377,7 @@ module.exports = {
       }
     },
     {
-      "key": "mtv",
+      "key": "MTV",
       "name": "MTV",
       "type": 3,
       "api": "csp_BiliGuard",
@@ -377,7 +393,7 @@ module.exports = {
       }
     },
     {
-      "key": "tingshu",
+      "key": "tingshu275",
       "name": "听书275",
       "type": 3,
       "api": "csp_Tingshu275Guard",
@@ -390,7 +406,7 @@ module.exports = {
       "changeable": 0
     },
     {
-      "key": "aidian",
+      "key": "Aid",
       "name": "爱壹点",
       "type": 3,
       "api": "csp_FirstAidGuard",
@@ -401,21 +417,246 @@ module.exports = {
         "type": "rect",
         "ratio": 3.8
       }
+    },
+    {
+      "key": "影视2",
+      "name": "影视2",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/fantaixing7/EXT/refs/heads/main/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/fantaixing7/EXT/refs/heads/main/影视2.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.755
+      },
+      "timeout": 10,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "影视3",
+      "name": "影视3",
+      "type": 3,
+      "api": "https://git.yylx.win/https://raw.githubusercontent.com/fantaixing7/EXT/refs/heads/main/drpy2.min.js",
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/fantaixing7/EXT/refs/heads/main/影视3.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.755
+      },
+      "timeout": 10,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "kkks",
+      "name": "看看影视",
+      "type": 3,
+      "api": "csp_KkNsGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt"
+      }
+    },
+    {
+      "key": "UC",
+      "name": "UC影视",
+      "type": 3,
+      "api": "csp_UuNsGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt"
+      }
+    },
+    {
+      "key": "ysso",
+      "name": "影视搜",
+      "type": 3,
+      "api": "csp_YiSoGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "yiSoCookie": "satoken=4437cb8c-a260-411b-9a0d-1fa622ab422f"
+      }
+    },
+    {
+      "key": "mps",
+      "name": "秒搜",
+      "type": 3,
+      "api": "csp_MIPanSoGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt"
+      }
+    },
+    {
+      "key": "YpanSo",
+      "name": "云盘搜",
+      "type": 3,
+      "api": "csp_YpanSoGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt"
+      }
+    },
+    {
+      "key": "push_agent",
+      "name": "推送接口",
+      "type": 3,
+      "api": "csp_PushGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt"
+      }
+    },
+    {
+      "key": "Bili",
+      "name": "哔哩哔哩",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt"
+      }
+    },
+    {
+      "key": "Biliye",
+      "name": "哔哩影视",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://nos.netease.com/ysf/6496356286589c68f52c2f99c0c674c7.txt"
+      }
+    },
+    {
+      "key": "dr影视",
+      "name": "电影",
+      "type": 3,
+      "api": "https://git.yylx.win/https://raw.githubusercontent.com/fantaixing7/EXT/refs/heads/main/drpy2.min.js",
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/fantaixing7/EXT/refs/heads/main/电影.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "影视",
+      "name": "影视",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://nos.netease.com/ysf/89370c8ddf36b5e1beb4d71adb921bda.txt"
+      }
+    },
+    {
+      "key": "影视港",
+      "name": "港剧",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://nos.netease.com/ysf/d7a21cf34ede56f5c686ecfba5fc7e3f.txt"
+      }
+    },
+    {
+      "key": "影视台",
+      "name": "台剧",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://nos.netease.com/ysf/8f55d520f8d70056695740ef151744a7.txt"
+      }
+    },
+    {
+      "key": "影视日",
+      "name": "日剧",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://nos.netease.com/ysf/c66a4b5356141c49fd45ec51568017b4.txt"
+      }
+    },
+    {
+      "key": "fan",
+      "name": "饭饭 www.xxx.com",
+      "type": 3,
+      "api": "csp_XPathGuard",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "cc",
+      "name": "草草影视",
+      "type": 3,
+      "api": "csp_XPathGuard",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0
     }
   ],
-
+  "logo": "https://bdcache1-f1.v3mh.com/image/25-12-16/6941612717007.gif",
   "hosts": [
     "img1.wsyzy.org=danmu.888484.xyz",
     "fiizvfcd.top=danmu.888484.xyz"
   ],
-
   "lives": [
-    {
-      "name": "内置直播源V6",
-      "type": 0,
-      "url": "https://nos.netease.com/ysf/3d75a78a0fc3ede372c03598d6d10367.m3u",
-      "playerType": 2
-    },
     {
       "name": "Kimentanm",
       "type": 0,
@@ -429,6 +670,12 @@ module.exports = {
       "playerType": 2,
       "epg": "http://diyip5.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "内置直播源V6",
+      "type": 0,
+      "url": "https://nos.netease.com/ysf/3d75a78a0fc3ede372c03598d6d10367.m3u",
+      "playerType": 2
     },
     {
       "name": "影视2直播",
